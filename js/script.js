@@ -68,6 +68,6 @@ function showSlide(n) {
 window.setInterval(
    function(){
    switchSlide(1)
-}, 3000);
+}, 4000);
 
 });
