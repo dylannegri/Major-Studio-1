@@ -1,3 +1,5 @@
+document.addEventListener('DOMContentLoaded', function(){
+
 var slideIndex = 1;
 
 
@@ -63,9 +65,9 @@ function showSlide(n) {
     dotsArray[slideIndex-1].className += " dot-filled";
 }
 
-
-
 window.setInterval(
    function(){
    switchSlide(1)
 }, 3000);
+
+});
