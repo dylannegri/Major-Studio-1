@@ -1,0 +1,76 @@
+.big-container {
+   position: relative;
+   max-width: 55vw;
+   width: 100%;
+   margin: auto;
+}
+.slides {
+   position: absolute;
+   top: 0;
+   width: 55vw;
+   height: 0;
+   opacity: 0;
+   transition: opacity 1s ease-in-out .1s,
+               height 1s ease-in-out .1s;
+}
+.fadeImage{
+  position: relative;
+   width: 55vw;
+   height: initial;
+   opacity: 1;
+}
+.buttons-container {
+    position: relative;
+   margin: auto;
+   bottom: 8vh;
+   width: 55vw;
+   text-align: center;
+   font-size: 3vw;
+}
+.dot-button {
+      display: inline-block;
+   width: 1vw;
+   height: 1vw;
+   border: 1px solid #EEEEEE;
+   border-radius: 50%;
+   transition: background-color .3s;
+}
+.dot-filled {
+      background-color: #EEEEEE;
+}
+
+.dot-button:hover {
+   background-color: #EEEEEE;
+}
+
+.left-arrow, .right-arrow {
+   color: rgba(255, 255, 255, 0.5);
+   transition: color .15s;
+}
+
+.left-arrow {
+   padding-left: 15px;
+   float: left;
+}
+.right-arrow {
+   padding-right: 15px;
+   float: right;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+   color: #EEEEEE;
+}
+
+.left-arrow, .right-arrow, .dot-button {
+   cursor: pointer;
+}
+
+
+/*.title-container {
+   position: relative;
+   margin: auto;
+   text-align: center;
+   color: white;
+   letter-spacing: 15px;
+   width: 100vw;
+}*/
