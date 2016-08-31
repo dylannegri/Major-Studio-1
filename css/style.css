@@ -23,7 +23,7 @@ body {
 	position: relative;
 	background-color: rgba(0,0,0,0.5); 
 	width: 60vw;
-	height: 100vh;
+	height: 100%;
 	margin-left: 20vw;
 }
 #portait {
@@ -46,4 +46,8 @@ a {
 .assignments {
 	color: white;
 	margin: 10px;
+}
+.slides{
+	width: 40vw;
+	padding-left: 10vw;
 }
